@@ -34,12 +34,12 @@ export default function garment(){
        
           <div id="about" className=" py-10  mb-0">
             <div className="flex justify-center items-center mb-0">
-              <img src="/laps no bg.png" alt="Logo" className="h-24 w-24" />
+              <img src="/laps.png" alt="Logo" className="h-12 w-15" />
             </div>
-            <div className="flex justify-center items-center mt-0">
-              <img src="/knitwear no bg.png" alt="Logo" className="h-24 w-24" />
+            <div className="flex justify-center items-center mt-0 pt-3">
+              <img src="/KNIT.png" alt="Logo" className="h-12 w-15" />
             </div>
-            <p className="pb-2 3xl pl-10 pr-10">Let’s customize we specialize in manufacturing all kinds of t-shirts that 
+            <p className="pb-2 pt-8 3xl pl-10 pr-10">Let’s customize we specialize in manufacturing all kinds of t-shirts that 
             can be fully customized to your specifications. We understand that every customer is unique,
             which is why we offer a wide range of sized, styles . colors and designs to choose from.</p>
             <br/>
@@ -100,7 +100,7 @@ export default function garment(){
 
         
             <div id="wardrobe" className="py-14 ">
-              <h2 className="text-3xl text-black-700 pb-6 flex justify-center">We Make Customized Clothing Manufacturing and Brand Building</h2>
+              <h2 className="text-3xl text-black-700 pb-6  flex justify-center">We Make Customized Clothing Manufacturing and Brand Building</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                   {['Men\'s Wear'].map((title, index) => (
                   <div key={index} className="rounded overflow-hidden shadow-lg m-5 transform transition-transform duration-200 hover:scale-105 relative">
@@ -155,14 +155,13 @@ export default function garment(){
             </div>
           
 
-          <div id="tshirts" className="py-2 ">
-            <h2 className="text-3xl text-black-700 pb-10 flex justify-center">Nothing is impossible</h2>
+          <div id="tshirts">
+            <h2 className="text-3xl text-black-700 pb-3 top-0 flex justify-center">Nothing is impossible</h2>
             <Tshirt />
           </div>
-          
-          <div className=" sm:p-12 md:p-24 flex flex-col items-center justify-center min-h-screen">
+          <div className=" bg-zinc-200 top-0 pt-10 flex flex-col items-center justify-center ">
           <div className="text-center">
-            <h2 className="text-black-700 top-20 pb-5 text-2xl sm:text-1xl md:text-2xl lg:text-3xl">Contact us</h2>
+            <h2 className="text-black-700  pb-5  text-2xl sm:text-1xl md:text-2xl lg:text-3xl">Contact us</h2>
           </div>
           <div className="contact-info justify-between">
             <div className="font-medium w-full md:w-3xl pt-0 text-center">
@@ -188,7 +187,6 @@ export default function garment(){
                 <a href="https://www.facebook.com/profile.php?id=61558976730182&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
                   <FaFacebookF className="text-3xl"/>
                 </a>
-                <FaTwitter className="text-3xl"/>
               </div>
             </div>
             <div className="flex items-center font-bold">
